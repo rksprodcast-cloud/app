@@ -26,10 +26,32 @@ const Footer = () => {
               href={`https://${projectData.website}`} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center"
+              className="text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center mb-4"
             >
               www.{projectData.website}
             </a>
+            
+            {/* Social Media Links */}
+            <div className="flex items-center space-x-4 mt-4">
+              <a 
+                href={projectData.instagram} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-amber-400 hover:bg-amber-300 text-white p-2 rounded-full transition-all duration-300 hover:scale-110"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a 
+                href={projectData.facebook} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-amber-400 hover:bg-amber-300 text-white p-2 rounded-full transition-all duration-300 hover:scale-110"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
