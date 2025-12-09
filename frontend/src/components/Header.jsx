@@ -39,10 +39,18 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex flex-col">
             <div className="text-2xl md:text-3xl font-bold">
               <span className="text-amber-700">{projectData.company}</span>
             </div>
+            <a 
+              href={`https://${projectData.website}`} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xs text-gray-600 hover:text-amber-700 transition-colors"
+            >
+              {projectData.website}
+            </a>
           </div>
 
           {/* Desktop Navigation */}
