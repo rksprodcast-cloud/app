@@ -7,6 +7,8 @@ export const projectData = {
   contact: "7978207187",
   email: "info@jdevelopers.in",
   website: "jdevelopers.in",
+  instagram: "https://www.instagram.com/jdevelopers.in?igsh=NDd6NmNxY3JxeGht",
+  facebook: "https://www.facebook.com/jdevelopers.in",
   
   apartments: [
     {
