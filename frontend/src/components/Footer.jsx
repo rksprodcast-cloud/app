@@ -22,6 +22,14 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Building dreams, creating landmarks. {projectData.name} is our commitment to modern, luxurious living in Bhubaneswar.
             </p>
+            <a 
+              href={`https://${projectData.website}`} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center"
+            >
+              www.{projectData.website}
+            </a>
           </div>
 
           {/* Quick Links */}
