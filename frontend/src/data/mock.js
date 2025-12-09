@@ -6,6 +6,7 @@ export const projectData = {
   officeAddress: "Plot No 105, Saheed Nagar, Near BOB, Bhubaneswar - 751007",
   contact: "7978207187",
   email: "info@jdevelopers.com",
+  website: "jdeveloper.in",
   
   apartments: [
     {
