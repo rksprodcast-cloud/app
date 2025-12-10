@@ -5,10 +5,10 @@ import { projectData } from '../data/mock';
 
 const Amenities = () => {
   return (
-    <section id="amenities" className="py-20 bg-gradient-to-b from-amber-50 to-white">
+    <section id="amenities" className="py-20 bg-gradient-to-b from-teal-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-block bg-amber-100 text-amber-800 px-4 py-2 rounded-full mb-4">
+          <div className="inline-block bg-teal-100 text-teal-800 px-4 py-2 rounded-full mb-4">
             <p className="text-sm font-semibold">WORLD-CLASS FACILITIES</p>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -25,12 +25,12 @@ const Amenities = () => {
             return (
               <Card 
                 key={index} 
-                className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-2 hover:border-amber-400"
+                className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-2 hover:border-coral-400"
               >
                 <CardContent className="p-6 text-center">
-                  <div className="bg-amber-100 group-hover:bg-amber-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 transition-all duration-300">
+                  <div className="bg-teal-100 group-hover:bg-coral-500 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 transition-all duration-300">
                     {IconComponent && (
-                      <IconComponent className="h-8 w-8 text-amber-600 group-hover:text-white transition-colors duration-300" />
+                      <IconComponent className="h-8 w-8 text-teal-600 group-hover:text-white transition-colors duration-300" />
                     )}
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">{amenity.name}</h3>
@@ -42,7 +42,7 @@ const Amenities = () => {
         </div>
 
         {/* Additional Info */}
-        <div className="mt-16 bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-amber-100">
+        <div className="mt-16 bg-white rounded-2xl shadow-xl p-8 md:p-12 border-2 border-teal-100">
           <div className="text-center max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Living Redefined with Premium Facilities
