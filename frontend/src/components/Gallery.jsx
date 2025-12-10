@@ -9,7 +9,7 @@ const Gallery = () => {
     <section id="gallery" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-block bg-teal-100 text-teal-800 px-4 py-2 rounded-full mb-4">
+          <div className="inline-block bg-amber-100 text-amber-800 px-4 py-2 rounded-full mb-4">
             <p className="text-sm font-semibold">VISUAL TOUR</p>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -32,7 +32,7 @@ const Gallery = () => {
                 alt={`JD NEXUS View ${index + 1}`}
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-teal-900/70 via-teal-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className="p-6 text-white">
                   <p className="text-lg font-semibold">JD NEXUS - View {index + 1}</p>
                   <p className="text-sm text-gray-200">Click to view larger</p>
@@ -50,7 +50,7 @@ const Gallery = () => {
           onClick={() => setSelectedImage(null)}
         >
           <button 
-            className="absolute top-4 right-4 text-white hover:text-coral-400 transition-colors"
+            className="absolute top-4 right-4 text-white hover:text-amber-400 transition-colors"
             onClick={() => setSelectedImage(null)}
           >
             <X size={32} />
