@@ -54,7 +54,7 @@ export const projectData = {
   about: "JD NEXUS is a prestigious residential project by JDevelopers, offering modern architectural excellence in the heart of Bada Raghunathpur, Bhubaneswar. With spacious 2 & 3 BHK apartments, world-class amenities, and contemporary design, JD NEXUS redefines luxury living.",
   
   whyChoose: [
-    "Prime location in BadaRahunathpur, Bhubaneswar",
+    "Prime location in Bada Raghunathpur, Bhubaneswar",
     "Spacious apartments with optimal layouts",
     "Premium amenities for modern lifestyle",
     "Superior construction quality",
