@@ -41,13 +41,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex flex-col">
             <div className="text-2xl md:text-3xl font-bold">
-              <span className="text-teal-700">{projectData.company}</span>
+              <span className="text-amber-700">{projectData.company}</span>
             </div>
             <a 
               href={`https://${projectData.website}`} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-xs text-gray-600 hover:text-teal-700 transition-colors"
+              className="text-xs text-gray-600 hover:text-amber-700 transition-colors"
             >
               {projectData.website}
             </a>
@@ -59,7 +59,7 @@ const Header = () => {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-gray-700 hover:text-teal-700 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-amber-700 font-medium transition-colors duration-200"
               >
                 {link.label}
               </button>
@@ -69,7 +69,7 @@ const Header = () => {
           {/* Call Button */}
           <div className="hidden md:flex items-center space-x-4">
             <a href={`tel:${projectData.contact}`}>
-              <Button className="bg-teal-600 hover:bg-teal-700 text-white">
+              <Button className="bg-amber-600 hover:bg-amber-700 text-white">
                 <Phone className="mr-2 h-4 w-4" />
                 Call Now
               </Button>
@@ -93,13 +93,13 @@ const Header = () => {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="text-left text-gray-700 hover:text-teal-700 font-medium transition-colors duration-200"
+                  className="text-left text-gray-700 hover:text-amber-700 font-medium transition-colors duration-200"
                 >
                   {link.label}
                 </button>
               ))}
               <a href={`tel:${projectData.contact}`} className="pt-2">
-                <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
+                <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Now
                 </Button>
