@@ -41,13 +41,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex flex-col">
             <div className="text-2xl md:text-3xl font-bold">
-              <span className="text-amber-700">{projectData.company}</span>
+              <span className="text-teal-700">{projectData.company}</span>
             </div>
             <a 
               href={`https://${projectData.website}`} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-xs text-gray-600 hover:text-amber-700 transition-colors"
+              className="text-xs text-gray-600 hover:text-teal-700 transition-colors"
             >
               {projectData.website}
             </a>
