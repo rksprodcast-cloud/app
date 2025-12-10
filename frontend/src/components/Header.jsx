@@ -93,13 +93,13 @@ const Header = () => {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="text-left text-gray-700 hover:text-amber-700 font-medium transition-colors duration-200"
+                  className="text-left text-gray-700 hover:text-teal-700 font-medium transition-colors duration-200"
                 >
                   {link.label}
                 </button>
               ))}
               <a href={`tel:${projectData.contact}`} className="pt-2">
-                <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Now
                 </Button>
