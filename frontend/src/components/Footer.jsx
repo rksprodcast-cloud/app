@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-amber-400 mb-4">{projectData.company}</h3>
+            <h3 className="text-2xl font-bold text-coral-400 mb-4">{projectData.company}</h3>
             <p className="text-gray-400 mb-4">
               Building dreams, creating landmarks. {projectData.name} is our commitment to modern, luxurious living in Bhubaneswar.
             </p>
@@ -26,7 +26,7 @@ const Footer = () => {
               href={`https://${projectData.website}`} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center mb-4"
+              className="text-coral-400 hover:text-coral-300 transition-colors inline-flex items-center mb-4"
             >
               www.{projectData.website}
             </a>
@@ -37,7 +37,7 @@ const Footer = () => {
                 href={projectData.instagram} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-amber-400 hover:bg-amber-300 text-white p-2 rounded-full transition-all duration-300 hover:scale-110"
+                className="bg-coral-500 hover:bg-coral-400 text-white p-2 rounded-full transition-all duration-300 hover:scale-110"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
@@ -46,7 +46,7 @@ const Footer = () => {
                 href={projectData.facebook} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-amber-400 hover:bg-amber-300 text-white p-2 rounded-full transition-all duration-300 hover:scale-110"
+                className="bg-coral-500 hover:bg-coral-400 text-white p-2 rounded-full transition-all duration-300 hover:scale-110"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-amber-400">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4 text-coral-400">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <button onClick={() => scrollToSection('about')} className="text-gray-400 hover:text-white transition-colors">
@@ -88,16 +88,16 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-amber-400">Contact Info</h4>
+            <h4 className="text-lg font-semibold mb-4 text-coral-400">Contact Info</h4>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
-                <Phone className="h-5 w-5 text-amber-400 mt-1 flex-shrink-0" />
+                <Phone className="h-5 w-5 text-coral-400 mt-1 flex-shrink-0" />
                 <a href={`tel:${projectData.contact}`} className="text-gray-400 hover:text-white transition-colors">
                   {projectData.contact}
                 </a>
               </li>
               <li className="flex items-start space-x-3">
-                <Mail className="h-5 w-5 text-amber-400 mt-1 flex-shrink-0" />
+                <Mail className="h-5 w-5 text-coral-400 mt-1 flex-shrink-0" />
                 <div className="flex flex-col space-y-1">
                   <a href={`mailto:${projectData.email}`} className="text-gray-400 hover:text-white transition-colors">
                     {projectData.email}
@@ -113,7 +113,7 @@ const Footer = () => {
                 </div>
               </li>
               <li className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-amber-400 mt-1 flex-shrink-0" />
+                <MapPin className="h-5 w-5 text-coral-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400 text-sm mb-1">Office: {projectData.officeAddress}</p>
                   <p className="text-gray-400 text-sm">Project: {projectData.location}</p>
@@ -130,7 +130,7 @@ const Footer = () => {
               © {currentYear} {projectData.company}. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm">
-              <span className="text-amber-400 font-semibold">{projectData.name}</span> - Modern & Luxurious Living
+              <span className="text-coral-400 font-semibold">{projectData.name}</span> - Modern & Luxurious Living
             </p>
           </div>
         </div>

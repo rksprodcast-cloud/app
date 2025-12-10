@@ -39,10 +39,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-white to-amber-50">
+    <section id="contact" className="py-20 bg-gradient-to-b from-white to-teal-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-block bg-amber-100 text-amber-800 px-4 py-2 rounded-full mb-4">
+          <div className="inline-block bg-teal-100 text-teal-800 px-4 py-2 rounded-full mb-4">
             <p className="text-sm font-semibold">GET IN TOUCH</p>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -103,7 +103,7 @@ const Contact = () => {
                     rows={4}
                   />
                 </div>
-                <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700 text-white h-12 text-lg">
+                <Button type="submit" className="w-full bg-teal-600 hover:bg-teal-700 text-white h-12 text-lg">
                   Submit Enquiry
                 </Button>
               </form>
@@ -112,15 +112,15 @@ const Contact = () => {
 
           {/* Contact Information */}
           <div className="space-y-6">
-            <Card className="shadow-xl border-2 hover:border-amber-400 transition-colors">
+            <Card className="shadow-xl border-2 hover:border-coral-400 transition-colors">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-amber-100 p-3 rounded-lg">
-                    <Phone className="h-6 w-6 text-amber-600" />
+                  <div className="bg-teal-100 p-3 rounded-lg">
+                    <Phone className="h-6 w-6 text-teal-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
-                    <a href={`tel:${projectData.contact}`} className="text-amber-600 hover:text-amber-700 text-lg">
+                    <a href={`tel:${projectData.contact}`} className="text-teal-600 hover:text-teal-700 text-lg">
                       {projectData.contact}
                     </a>
                   </div>
@@ -128,15 +128,15 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="shadow-xl border-2 hover:border-amber-400 transition-colors">
+            <Card className="shadow-xl border-2 hover:border-coral-400 transition-colors">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-amber-100 p-3 rounded-lg">
-                    <Mail className="h-6 w-6 text-amber-600" />
+                  <div className="bg-teal-100 p-3 rounded-lg">
+                    <Mail className="h-6 w-6 text-teal-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email Us</h3>
-                    <a href={`mailto:${projectData.email}`} className="text-amber-600 hover:text-amber-700">
+                    <a href={`mailto:${projectData.email}`} className="text-teal-600 hover:text-teal-700">
                       {projectData.email}
                     </a>
                   </div>
@@ -144,11 +144,11 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="shadow-xl border-2 hover:border-amber-400 transition-colors">
+            <Card className="shadow-xl border-2 hover:border-coral-400 transition-colors">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-amber-100 p-3 rounded-lg">
-                    <MapPin className="h-6 w-6 text-amber-600" />
+                  <div className="bg-teal-100 p-3 rounded-lg">
+                    <MapPin className="h-6 w-6 text-teal-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Visit Us</h3>
