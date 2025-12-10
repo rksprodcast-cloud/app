@@ -69,7 +69,7 @@ const Header = () => {
           {/* Call Button */}
           <div className="hidden md:flex items-center space-x-4">
             <a href={`tel:${projectData.contact}`}>
-              <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+              <Button className="bg-teal-600 hover:bg-teal-700 text-white">
                 <Phone className="mr-2 h-4 w-4" />
                 Call Now
               </Button>
