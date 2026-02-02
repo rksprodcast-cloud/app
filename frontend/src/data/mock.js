@@ -5,8 +5,8 @@ export const projectData = {
   location: "Bada Raghunathpur, Bhubaneswar",
   officeAddress: "Plot No 105, Saheed Nagar, Near BOB, Bhubaneswar - 751007",
   contact: "7978207187",
-  email: "info@jdevelopers.in",
-  website: "jdevelopers.in",
+  email: "hello@jdevelopers.in",
+  website: "jdevelopers.online",
   instagram: "https://www.instagram.com/jdevelopers.in?igsh=NDd6NmNxY3JxeGht",
   facebook: "https://www.facebook.com/share/17mX4iAf5e/",
   
